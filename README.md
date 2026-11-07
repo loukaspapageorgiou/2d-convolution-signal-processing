@@ -76,30 +76,7 @@ Convolving a $10 \times 10$ input $X$ (containing a centered $4 \times 4$ square
 
 ---
 
-## Getting Started
 
-### Prerequisites
-
-Ensure you have Python $3.9+$ installed along with `numpy`, `scipy`, and `matplotlib`:
-
-```bash
-pip install numpy scipy matplotlib jupyter
-```
-
-### Running the Notebook
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
-   ```
-2. Launch Jupyter Notebook, JupyterLab, or open the `.ipynb` file directly in **VS Code**:
-   ```bash
-   jupyter notebook ECEUoP_SP_HW_GR_1.ipynb
-   ```
-3. Select your Python kernel and click **Restart Kernel and Run All Cells** to reproduce all tables, verification checks, and heatmaps.
-
----
 
 ## Acknowledgments
 
