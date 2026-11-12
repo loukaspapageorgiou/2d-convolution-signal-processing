@@ -33,14 +33,4 @@ This project presents a thorough, well-documented, and mathematically rigorous e
 3. **Publication-Quality Visualization & Reproducibility (Step D3):**  
    Fixing the color scale (`vmin=0, vmax=1`) across all four subplots allows an honest visual comparison of peak intensity attenuation at $K=6$. Furthermore, exporting the figure automatically via `plt.savefig("smoothing_experiment_heatmaps.png", dpi=300, bbox_inches="tight")` makes the project immediately ready for GitHub presentation.
 
----
 
-## 4. Checklist Before Pushing to GitHub
-
-1. **Run the Updated D3 Cell:** Execute the updated code cell in VS Code so that `smoothing_experiment_heatmaps.png` is generated in your project folder.
-2. **Restart Kernel & Run All:** Click **Restart** and **Run All** in VS Code, then save (`Ctrl + S`) the `.ipynb` file with all outputs visible.
-3. **Commit All Files Together:** Add the following files to your GitHub repository root:
-   - `ECEUoP_SP_HW_GR_1.ipynb` (your executed notebook)
-   - `README.md` (your repository front page)
-   - `smoothing_experiment_heatmaps.png` (the exported figure so `README.md` displays it automatically)
-   - `PROJECT_REVIEW.md` *(optional, if you wish to include the review documentation)*
